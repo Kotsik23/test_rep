@@ -1,6 +1,10 @@
+* {
+    font-family:-apple-system, sans-serif;
+}
+
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -14,10 +18,41 @@
     box-shadow: 0 0 10px black;
 }
 
-.list ul {
+.container__lists {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 400px;
+    box-shadow: 0 0 20px gray;
+}
+
+.container__lists .list {
     list-style: none;
 }
 
-.list ul li {
-    color: green;
+.container__lists .students li {
+    color: skyblue;
+}
+
+.container__lists .students li::after {
+    content: ' 🙎‍♂️';
+}
+
+.container__lists .meals li {
+    color: orange;
+}
+
+.container__lists .meals li::after {
+    content: ' 🍲';
+}
+
+.container__lists .houses li {
+    color: lightcoral;
+}
+
+.container__lists .houses li::after {
+    content: ' 🏠';
 }
