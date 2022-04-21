@@ -27,10 +27,12 @@
     flex-wrap: wrap;
     width: 400px;
     box-shadow: 0 0 20px gray;
+    padding: 2rem;
 }
 
 .container__lists .list {
     list-style: none;
+    padding: 0;
 }
 
 .container__lists .students li {
@@ -55,4 +57,19 @@
 
 .container__lists .houses li::after {
     content: ' 🏠';
+}
+
+.container__lists button {
+    padding: 0.5rem 1.25rem;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid darkgray;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.container__lists button:hover {
+    transform: scale(0.95);
+    transition: 0.5s;
 }
