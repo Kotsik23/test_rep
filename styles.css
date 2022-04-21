@@ -13,3 +13,11 @@
     padding: 2.5rem;
     box-shadow: 0 0 10px black;
 }
+
+.container ul {
+    list-style: none;
+}
+
+.container ul li {
+    color: green;
+}
