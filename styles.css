@@ -14,10 +14,10 @@
     box-shadow: 0 0 10px black;
 }
 
-.container ul {
+.list ul {
     list-style: none;
 }
 
-.container ul li {
+.list ul li {
     color: green;
 }
