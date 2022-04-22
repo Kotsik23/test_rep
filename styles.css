@@ -118,7 +118,7 @@
     padding: 0.5rem 1.25rem;
     background: transparent;
     border: none;
-    border-bottom: 2px solid darkgray;
+    border-bottom: 1px solid darkgray;
     cursor: pointer;
     font-size: 18px;
     transition: 0.5s;
